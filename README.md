@@ -9,15 +9,15 @@ Nele irão conter algumas fases criadas por nós, no qual o jogador terá que pa
 <hr>
 
 ## Linguagem utilizada
-#### C#
+##### C#
 
 ## Estado atual
-### Em desenvolvimento
+##### Em desenvolvimento
 <hr>
 
 ## Tecnologias utilizadas
-#### Unity
-#### Visual Studio 2019
+##### Unity
+##### Visual Studio 2019
 <hr>
 
 ## Passo a passo para execução do jogo
