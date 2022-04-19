@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour   {
+public class PlayerController : MonoBehaviour   
+{
 
     public float speed;
     public int jumpForce;
@@ -25,7 +27,8 @@ public class PlayerController : MonoBehaviour   {
     private float nextShot = 0f;
 
         // Start is called before the first frame update
-    void Start()    {
+    void Start()    
+    {
         sprite = GetComponent<SpriteRenderer>();
         rigidbody2D = GetComponent<Rigidbody2D>();
         animation = GetComponent<Animator>();
@@ -33,7 +36,8 @@ public class PlayerController : MonoBehaviour   {
     }
 
     // Update is called once per frame
-    void Update()    {
+    void Update()    
+    {
 
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("Ground"));
 
@@ -50,7 +54,8 @@ public class PlayerController : MonoBehaviour   {
         }
     }
 
-    void FixedUpdate()    {
+    void FixedUpdate()    
+    {
         
         float move = Input.GetAxis("Horizontal");
         rigidbody2D.velocity = new Vector2(move * speed, rigidbody2D.velocity.y);
@@ -67,20 +72,23 @@ public class PlayerController : MonoBehaviour   {
         }
     }
 
-    void Flip()    {
+    void Flip()    
+    {
         facingRight = !facingRight;
         transf.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 
     }
 
-    void SetAnimations()   {
+    void SetAnimations()   
+    {
         animation.SetFloat("VelY", rigidbody2D.velocity.y);
         animation.SetBool("Player_Jump", !grounded);
         animation.SetBool("Player_Run", rigidbody2D.velocity.x != 0f && grounded);
 
     }
 
-    void Shot()  {
+    void Shot()  
+    {
         animation.SetTrigger("Player_Shot");
         nextShot = Time.time + fireRate;
 
@@ -116,8 +124,28 @@ public class PlayerController : MonoBehaviour   {
 
             if (health <= 0)
             {
+
                 Debug.Log("Morreu");
+                Invoke("ReloadFase", 1f);
+                gameObject.SetActive(false);
+
             }
         }
+    }
+
+    public void DamageWater()
+    {
+        Debug.Log("Morreu");
+        health = 0;
+        Invoke("ReloadFase", 1f);
+        gameObject.SetActive(false);
+
+    }
+
+    void ReloadFase()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
+
     }
 }

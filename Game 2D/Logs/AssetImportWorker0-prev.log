@@ -1,0 +1,334 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pt' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/Game 2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56531
+Successfully changed project path to: C:/Users/User/Game 2D
+C:/Users/User/Game 2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 44.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path D:/unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Game 2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8170 MB
+    Driver:   30.0.15002.1004
+Initialize mono
+Mono path[0] = 'D:/unity/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000998 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to find bridge dll in registry for Microsoft Visual Studio Tools for Unity for C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\devenv.exe
+Mono: successfully reloaded assembly
+- Completed reload, in  0.538 seconds
+Domain Reload Profiling:
+	ReloadAssembly (539ms)
+		BeginReloadAssembly (53ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (140ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (166ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003197 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game 2D\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 42.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (825ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.2 MB.
+System memory in use after: 97.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2645.
+Total: 2.903800 ms (FindLiveObjects: 0.133900 ms CreateObjectMapping: 0.072100 ms MarkObjects: 2.620900 ms  DeleteObjects: 0.075900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-3.png
+  artifactKey: Guid(f274fc530acb846d2bfe70274467e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-3.png using Guid(f274fc530acb846d2bfe70274467e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26987266c66c0bb5ec54b8561e47ba43') in 0.110753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-4.png
+  artifactKey: Guid(2e798ad64b4dd4bcba6caefcb145055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-4.png using Guid(2e798ad64b4dd4bcba6caefcb145055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f77f21f83c4c54b5a432f0de9e01f2c') in 0.016719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-1.png
+  artifactKey: Guid(2f933e65ab55a416590f7d39ec8a800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-1.png using Guid(2f933e65ab55a416590f7d39ec8a800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3775d18fb69052ae7c1613934f881d5f') in 0.016781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-4.png
+  artifactKey: Guid(433af8dc25b274317a83915e319e95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-4.png using Guid(433af8dc25b274317a83915e319e95f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432ab88545caeba04a5a8a6248ae62b4') in 0.014425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-3.png
+  artifactKey: Guid(73f67af8124e5433dae031c9bb4f6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-3.png using Guid(73f67af8124e5433dae031c9bb4f6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f3cf304d210c78e306835127409e8d') in 0.014901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-1.png
+  artifactKey: Guid(19fc4ff85394f44dc9614c956cd2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-1.png using Guid(19fc4ff85394f44dc9614c956cd2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143255251c6a77a0b20870ba2790ffe3') in 0.015310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-4.png
+  artifactKey: Guid(d0715c44db0ea459c93a7c9aa2c500e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-4.png using Guid(d0715c44db0ea459c93a7c9aa2c500e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6dc7e658976a3e2384dab43e2d842ba') in 0.016872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-3.png
+  artifactKey: Guid(f590bf1777e384a8ea515e0197188aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-3.png using Guid(f590bf1777e384a8ea515e0197188aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7aec12a4187b5b82e460abfb0176f9') in 0.014315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-2.png
+  artifactKey: Guid(1af4bb3f268d54970bd20e21e59905eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/jumper-idle/jumper-idle-2.png using Guid(1af4bb3f268d54970bd20e21e59905eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1bdbc133b9cde3c1bb140e7e732ddc') in 0.014744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-1.png
+  artifactKey: Guid(92dc5fd35ad07452cbb4501123046b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-1.png using Guid(92dc5fd35ad07452cbb4501123046b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb630fd25e2639deb2441bc79d587be4') in 0.014755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-2.png
+  artifactKey: Guid(70d35059272a84b34bbaa9e365699821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-2.png using Guid(70d35059272a84b34bbaa9e365699821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319b2ed24f7f31eace4e0608fd1b2483') in 0.014483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-2.png
+  artifactKey: Guid(284cb317a22f3449cacdcb162bdb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-2.png using Guid(284cb317a22f3449cacdcb162bdb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a88a8819457c67a57787db4122f926a') in 0.014344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.384237 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-1.png
+  artifactKey: Guid(92dc5fd35ad07452cbb4501123046b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-1.png using Guid(92dc5fd35ad07452cbb4501123046b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7df796ba0b5b94269c1f371965ab85') in 0.008591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-3.png
+  artifactKey: Guid(73f67af8124e5433dae031c9bb4f6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-3.png using Guid(73f67af8124e5433dae031c9bb4f6c86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db55efc742f72f2ad5b58c73e95923c7') in 0.009519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-4.png
+  artifactKey: Guid(d0715c44db0ea459c93a7c9aa2c500e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-4.png using Guid(d0715c44db0ea459c93a7c9aa2c500e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca1e4d1bcf45e4f04eab9e32bf2e085') in 0.011030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-2.png
+  artifactKey: Guid(70d35059272a84b34bbaa9e365699821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-idle/crab-idle-2.png using Guid(70d35059272a84b34bbaa9e365699821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8179bb0e717dbd9488a68aee7697d3') in 0.008675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.230685 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-1.png
+  artifactKey: Guid(19fc4ff85394f44dc9614c956cd2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-1.png using Guid(19fc4ff85394f44dc9614c956cd2ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfca6f5ff3d6fbb67765f635c3e010fd') in 0.007765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-3.png
+  artifactKey: Guid(f274fc530acb846d2bfe70274467e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-3.png using Guid(f274fc530acb846d2bfe70274467e0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afc9a15645946be7ab455230de4290de') in 0.008912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-4.png
+  artifactKey: Guid(2e798ad64b4dd4bcba6caefcb145055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-4.png using Guid(2e798ad64b4dd4bcba6caefcb145055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947f1e1bfbc0cddcc508f7f32346dee4') in 0.007888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-2.png
+  artifactKey: Guid(284cb317a22f3449cacdcb162bdb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Warped Caves/Artwork/Sprites/enemies/crab-walk/crab-walk-2.png using Guid(284cb317a22f3449cacdcb162bdb8174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ad3c1c7d2a2e693f7ada7ef4f74820') in 0.010328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.935659 seconds.
+  path: Assets/Scripts/CrabController.cs
+  artifactKey: Guid(9fbff3ad0d946c5449fb22aced875425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CrabController.cs using Guid(9fbff3ad0d946c5449fb22aced875425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7062a548a4afcf709b56e3a81d387232') in 0.008473 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003151 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Game 2D\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (872ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.6 MB.
+System memory in use after: 99.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2657.
+Total: 2.733400 ms (FindLiveObjects: 0.176500 ms CreateObjectMapping: 0.156800 ms MarkObjects: 2.375200 ms  DeleteObjects: 0.024000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 784.195044 seconds.
+  path: Assets/Prefab/crab.prefab
+  artifactKey: Guid(21e54a997a119d64da33592c25fa4974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/crab.prefab using Guid(21e54a997a119d64da33592c25fa4974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd95af5e846307baefb0166cf94099a4e') in 0.090885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.068025 seconds.
+  path: Assets/animations/Octopus/octopus.controller
+  artifactKey: Guid(f88d8f9e0592306488327c2c7fa98aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/Octopus/octopus.controller using Guid(f88d8f9e0592306488327c2c7fa98aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b2b23c765d2f6608dd8c52f26ba14d') in 0.007880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 147.435305 seconds.
+  path: Assets/animations/Crab/crab.controller
+  artifactKey: Guid(3d13bacf0fcb6c8468498d69e8315273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/Crab/crab.controller using Guid(3d13bacf0fcb6c8468498d69e8315273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4af988e936097b2f393d29ab62725a') in 0.003670 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -21,6 +21,12 @@ public class ShotController : MonoBehaviour
         {
             octopus.TakeDamage(damage);
         }
+
+        CrabController crab = hitInfo.GetComponent<CrabController>();
+        if (crab != null)
+        {
+            crab.TakeDamage(damage);
+        }
         Debug.Log(hitInfo.name);
         Destroy(gameObject);
     }

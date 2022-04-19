@@ -10,7 +10,7 @@ public class OctopusController : MonoBehaviour
     public Transform skyCheck;
 
     private bool grounded = false;
-    private bool touchedSky = false;
+    private bool touchSky = false;
 
     private SpriteRenderer sprite;
     private Rigidbody2D rigidbody2D;
@@ -28,7 +28,7 @@ public class OctopusController : MonoBehaviour
     void Update()
     {
         grounded = Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground"));
-        touchedSky = Physics2D.Linecast(transform.position, skyCheck.position, 1 << LayerMask.NameToLayer("Sky"));
+        touchSky = Physics2D.Linecast(transform.position, skyCheck.position, 1 << LayerMask.NameToLayer("Sky"));
 
         
     }
@@ -40,7 +40,7 @@ public class OctopusController : MonoBehaviour
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, speed);
         }
 
-        if (touchedSky)
+        if (touchSky)
         {
             rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, -speed);
         }
@@ -48,12 +48,12 @@ public class OctopusController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             Debug.Log("Colidiu com o Player");
         }
 
-        if(collision.CompareTag("Shot"))
+        if (collision.CompareTag("Shot"))
         {
             Debug.Log("Sofreu dano");
         }
@@ -61,7 +61,6 @@ public class OctopusController : MonoBehaviour
 
     IEnumerator DamageEffect()
     {
-        float actualSpeed = speed;
         sprite.color = Color.red;
         yield return new WaitForSeconds(0.1f);
         sprite.color = Color.white;
