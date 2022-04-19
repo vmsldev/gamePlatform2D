@@ -10,6 +10,7 @@ Nele irão conter algumas fases criadas por nós, no qual o jogador terá que pa
 
 ## Linguagem utilizada
 ##### C#
+<hr>
 
 ## Estado atual
 ##### Em desenvolvimento
